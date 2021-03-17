@@ -237,12 +237,12 @@ async def amireallyalive(alive):
         f"┣[•👤 `USER     :`{DEFAULTUSER}\n"
         f"┣[ 👁‍🗨 `Username :`@{user.username}\n"
         "`┣▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱`\n"
-        f"┣[•⚙️ `Telethon :`v {version.__version__} 🔥\n"
-        f"┣[•🐍 `Python   :`v {python_version()} 🔥\n"
-        f"┣[•💻 `Base on  :`{UPSTREAM_REPO_BRANCH}🔥\n"
-        f"┣[•🛠 `Version  :`{BOT_VER} 🔥\n"
-        f"┣[•🗃 `Modules  :`{len(modules)} Loaded🔥\n"
-        f"┣[•🕒 `Uptime   :`{uptime} 🔥\n"
+        f"┣[•⚙️ `Telethon :`v {version.__version__} \n"
+        f"┣[•🐍 `Python   :`v {python_version()} \n"
+        f"┣[•💻 `Base on  :`{UPSTREAM_REPO_BRANCH}\n"
+        f"┣[•🛠 `Version  :`{BOT_VER} \n"
+        f"┣[•🗃 `Modules  :`{len(modules)} Loaded\n"
+        f"┣[•🕒 `Uptime   :`{uptime} \n"
         f"╰━━━━━━━━━━━━━━━━━━━━━╯\n"
         f" •MOD BY : `{DEFAULTUSER}`")
     if ALIVE_LOGO:
