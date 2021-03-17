@@ -94,7 +94,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN") or None
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = (os.environ.get("UPSTREAM_REPO_URL")
-                     or "https://github.com/X-Newbie/XBot-Remix")
+                     or "https://github.com/Why-Try/Delta")
 
 # UPSTREAM_REPO_URL branch, the default is alpha
 UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH") or "alpha"
@@ -187,7 +187,7 @@ TEMP_DOWNLOAD_DIRECTORY = os.environ.get(
     "TMP_DOWNLOAD_DIRECTORY") or "./downloads"
 
 # Terminal Alias
-TERM_ALIAS = os.environ.get("TERM_ALIAS") or "XBOT-REMIX"
+TERM_ALIAS = os.environ.get("TERM_ALIAS") or "DELTA"
 
 # Genius Lyrics API
 GENIUS = os.environ.get("GENIUS_ACCESS_TOKEN") or None
@@ -267,7 +267,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "**🔥 XBOT-REMIX 🔥\n☠️BERHASIL DIAKTIFKAN☠️**")
+    await bot.send_message(BOTLOG_CHATID, "**δ DELTA δ\n△SUCCESSFUL ACTIVATED△**")
     return
 
 with bot:
