@@ -1,5 +1,5 @@
 # We're using Ubuntu 20.10
-FROM xnewbie/xbot:groovy
+FROM why-try/delta:groovy
 
 #
 # Clone repo and prepare working directory
