@@ -326,7 +326,7 @@ with bot:
         async def handler(event):
             if event.message.from_id != uid:
                 await event.reply(
-                    "I'm [XBOT](https://github.com/X-Newbie/XBot-Remix) modules helper...\nplease make your own bot, don't use mine 😋"
+                    "I'm [DELTA](https://github.com/Callystaa) modules helper...\nplease make your own bot, don't use mine 🥰"
                 )
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
@@ -341,7 +341,7 @@ with bot:
                 result = builder.article(
                     "Please Use Only With .help Command",
                     text="{}\nTotal loaded modules: {}".format(
-                        "[XBOT](https://github.com/X-Newbie/XBot-Remix) modules helper.\n",
+                        "[DELTA](https://github.com/Callystaa) modules helper.\n",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -362,7 +362,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/X-Newbie/XBot-Remix",
+                                "https://github.com/Callystaa",
                             ),
                             custom.Button.url(
                                 "Support",
