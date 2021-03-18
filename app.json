@@ -1,6 +1,6 @@
 {
-  "name": "XBOT",
-  "description": "[XBOT] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database.",
+  "name": "DELTA",
+  "description": "A modular Telegram userbot running on Python 3.7+ with an sqlalchemy.",
   "keywords": [
     "telegram",
     "userbot",
@@ -8,9 +8,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/X-Newbie/XBot-Remix",
+  "repository": "https://github.com/Why-Try/Delta",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
-  "success_url": "https://t.me/XBOT_SUPPORT",
+  "success_url": "https://t.me/Sihyeon3",
   "stack": "container",
   "env": {
     "API_KEY": {
