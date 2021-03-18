@@ -48,10 +48,27 @@ async def typewriter(typew):
 # Owner @Si_Dian
 
 
+@register(outgoing=True, pattern='^O(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`O`")
+    sleep(1)
+    await typew.edit("`Oo`")
+    sleep(1)
+    await typew.edit("`Ooo`")
+    sleep(1)
+    await typew.edit("`Oooo`")
+    sleep(1)
+    await typew.edit("`Gw Si O Aja...`")
+# Owner @Si_Dian
+
 CMD_HELP.update({
     "salam":
     "`P`\
 \nUsage: Untuk Memberi salam.\
 \n\n`L`\
-\nUsage: Untuk Menjawab Salam."
+\nUsage: Untuk Menjawab Salam.\
+\n\n`O`\
+\nUsage: Entah."
 })
